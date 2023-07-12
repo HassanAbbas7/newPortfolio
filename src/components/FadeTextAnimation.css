@@ -1,0 +1,15 @@
+.fade-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.fade-text {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-text.active {
+  opacity: 1;
+}
